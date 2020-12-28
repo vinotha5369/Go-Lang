@@ -1,0 +1,30 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	// Creating and initializing empty map
+	var map_1 map[int]int
+
+	// Checking if the map is nil or not
+	if map_1 == nil {
+
+		fmt.Println("True")
+	} else {
+
+		fmt.Println("False")
+	}
+
+	// using map literals
+	map_2 := map[int]string{
+
+		0: "C",
+		1: "C++",
+		2: "Java",
+		3: "Phython",
+		4: "Go",
+	}
+
+	fmt.Println("Map: ", map_2)
+}
